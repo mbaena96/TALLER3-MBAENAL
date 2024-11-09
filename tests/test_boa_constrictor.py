@@ -16,5 +16,5 @@ class TestBoaConstrictor(unittest.TestCase):
         self.assertEqual(self.boa.alimientar_boa(), 'Se ha comido un ratón')
 
     def test_comer_mas_de_10_ratones(self):
-        self.boa.ratones_comidos = 10
+        self.boa.ratones_comidos = 20
         self.assertRaises(ValueError, self.boa.alimientar_boa)

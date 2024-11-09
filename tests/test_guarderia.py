@@ -26,7 +26,7 @@ class TestGuarderia(unittest.TestCase):
         self.assertEqual(self.guarderia.alimentar_boa('Juancho'), 'Éxito')
 
     def test_alimentar_boas_should_return_boa_llena(self):
-        self.boa1.ratones_comidos = 10
+        self.boa1.ratones_comidos = 20
         self.assertEqual(self.guarderia.alimentar_boa('Juancho'), 'La boa está llena')
 
 if __name__ == "__main__":
