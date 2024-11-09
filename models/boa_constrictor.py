@@ -13,7 +13,7 @@ class Boa_Constrictor(AnimalExotico):
         return super().calcular_flete()
     
     def alimientar_boa(self) -> int:
-        if self.ratones_comidos != 10:
+        if self.ratones_comidos != 20:
             self.ratones_comidos += 1
             return "Se ha comido un ratón"
         else:
